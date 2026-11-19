@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.75)),url('/Assets/images/ag.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color:white
+}
+a{
+    text-decoration: none;
+    color:aqua;
+    font-weight: bolder;
+    font-size: larger;
+}
