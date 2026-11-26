@@ -33,8 +33,7 @@ a{
 }
 
 .box:hover {
-    border:5px;
-    border-style: ridge;
+    border:5px initial black;
     border-radius: 10%;
     box-shadow: 10px 15px 20px black;
     background-color: darkred;
@@ -45,3 +44,4 @@ button{
   border:1px transparent;
   border-radius: 8%;
 }
+  
