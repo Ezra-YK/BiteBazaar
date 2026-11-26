@@ -7,11 +7,41 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  color:white
+  color:white;
+  font-family: "Agrave Pro", cursive;
+  font-optical-sizing: auto;
+  font-weight: 250px;
+  font-style:normal;
 }
 a{
     text-decoration: none;
     color:aqua;
     font-weight: bolder;
     font-size: larger;
+}
+.box1 {
+    display:grid;
+    grid-template-columns: repeat(3,1fr);  
+    background-color: transparent;
+}
+.box{
+  padding: 30px;
+}
+.box img{
+  border: 2px double;
+  border-radius: 15%;
+}
+
+.box:hover {
+    border:5px;
+    border-style: ridge;
+    border-radius: 10%;
+    box-shadow: 10px 15px 20px black;
+    background-color: darkred;
+}
+button{
+  background-color: whitesmoke;
+  color:black;
+  border:1px transparent;
+  border-radius: 8%;
 }
