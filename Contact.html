@@ -10,19 +10,90 @@
     <link href="https://fonts.googleapis.com/css2?family=Agrave+Pro:wght@100..700&family=Isometra&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1 style="font-size: 73px; margin: 5px;"><img src="Assets/icons/appicon.png" height="50" width="50">Bite<span style="color: darkgreen;">Bazaar</span></h1>
-  <h2 style="font-size: 50px; margin: 0px; margin-bottom: 2px;">Contact <span style="color: darkgreen;">US</span></h2>
+  <h1 style="font-size: 73px; margin: 5px;"><img src="Assets/icons/appicon.png" height="50" width="50">Bite<span style="color: darkgreen;">Bazaar</span> Contact</h1>
   
-    <a href="index.html">Home</a> &nbsp;|
-    <a href="Menu.html">Menu</a> &nbsp;|
-    <a href="About.html">About</a> &nbsp;|
-    <a href="Contact.html">Contact</a> &nbsp;|
-    <a href="cart.html">Cart</a> &nbsp;|
+    <!-- Start of header -->
+    <header>
+    <nav>
+        <a href="index.html">Home</a> &nbsp;|
+        <a href="Menu.html">Menu</a> &nbsp;|
+        <a href="About.html">About</a> &nbsp;|
+        <a href="Contact.html">Contact</a> &nbsp;|
+        <a href="cart.html">Cart</a> &nbsp;|
+    </nav>
+    </header>
+    <!-- Start of Main -->
+    <main>
+    <form >
+      <h1>Visit Our Website</h1>
+      <a href="#">Link</a>
+      <hr>
+      <h2>Customer Registration & Order Form</h2>
+      <hr>
+
+    <fieldset>
+        <h3>Customer Information</h3>
+        <lable>Full Name:</lable><br>
+        <input type="text" placeholder="Enter your name" required>
+        <br>
+        <lable>Email Address:</lable><br>
+        <input type="email" placeholder="Enter your mail id" required>
+        <br>
+        <lable>Password:</lable><br>
+        <input type="password" placeholder="Enter New Password" required>
+        <br>
+        <lable>Phone Number:</lable><br>
+        <input type="tel" placeholder="Mobile Number" required>
+    </fieldset>
+    <fieldset>
+        <h3>Order Information</h3>
+        <lable>Quantity:</lable><br>
+        <input type="number" placeholder="Requiered Quantity" required>
+        <br>
+        <lable>Preferred Delivery Date</lable><br>
+        <input type="date">
+        <br>
+        <label>Select Food Item</label><br>
+        <select>
+            <option value="dosa" name="Enter an option">Crispy Dosa</option>
+            <option value="dosa">Podi Dosa</option>
+            <option value="dosa">Masala Dosa</option>
+            <option value="dosa">Ghee Dosa</option>
+            <option value="dosa">Onion Dosa</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <h3>Payment Method</h3>
+        <input type="radio" name="p">Pay on Delivery<br>
+        <input type="radio" name="p">Cards<br>
+        <input type="radio" name="p">Net Banking<br>
+        <input type="radio" name="p">UPI<br>
+        
+        <h3>Any Extras:</h3>
+        <input type="checkbox">Extra Side dish
+        <input type="checkbox">Beverages
+        <input type="checkbox">Desserts
+        <input type="checkbox">No Oil
+    </fieldset>
+    <fieldset>
+        <h3>Delivery Details</h3>
+        <lable>Delivery Address</lable><br>
+        <textarea rows="5" cols="40" placeholder="Address To Get Your Food"></textarea>
+        <br><br>
+        <button type="submit">Place Your Order</button><button type="reset">Clear Form</button>
+    </fieldset>
 
         <p>Email: <a href="mailto:yashvanthyk.16@gmail.com">Send Mail</a></p>
         <p>Phone: <a href="tel:+91 8610281557">+91 8610281557</a></p>
         <p>Location: <a href="https://maps.app.goo.gl/4er5udFw687m2DGi9">IT Vedant, Chennai</a></p>
         <hr>
+    </form>
+</main> 
 
+    <!--Start of Footer-->
+    <footer>
+        <p>&copy; 2026 BiteBazaar</p>
+    </footer>
+    
 </body>
 </html>

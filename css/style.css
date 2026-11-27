@@ -39,9 +39,14 @@ a{
     background-color: darkred;
 }
 button{
-  background-color: whitesmoke;
-  color:black;
+  background-color: lightcoral;
+  color:white;
+  padding:12px 30px;
   border:1px transparent;
-  border-radius: 8%;
+  border-radius: 35px;
+  cursor: pointer;
 }
-  
+button:hover{
+  background-color: brown;
+  box-shadow: 5px 8px 12px black;
+}
